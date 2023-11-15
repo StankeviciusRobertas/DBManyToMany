@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBManyToMany", "DBManyToMany\DBManyToMany.csproj", "{CF61F210-0C08-4F98-8EFC-E563DBFF2C1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbManyToManyTests", "DbManyToManyTests\DbManyToManyTests.csproj", "{CE6BE0C9-3263-436D-9E08-02E6383A902B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FC77FEE0-FAE2-46EA-B41F-0D1DBEB3780F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF61F210-0C08-4F98-8EFC-E563DBFF2C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF61F210-0C08-4F98-8EFC-E563DBFF2C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF61F210-0C08-4F98-8EFC-E563DBFF2C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF61F210-0C08-4F98-8EFC-E563DBFF2C1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE6BE0C9-3263-436D-9E08-02E6383A902B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE6BE0C9-3263-436D-9E08-02E6383A902B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE6BE0C9-3263-436D-9E08-02E6383A902B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE6BE0C9-3263-436D-9E08-02E6383A902B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE6BE0C9-3263-436D-9E08-02E6383A902B} = {FC77FEE0-FAE2-46EA-B41F-0D1DBEB3780F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23DB7072-D175-46A0-A426-D4CE8400E2B4}
+	EndGlobalSection
+EndGlobal
