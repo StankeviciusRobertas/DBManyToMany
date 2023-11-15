@@ -35,8 +35,6 @@ namespace DbManyToManyTests
             var dune = new Book { Title = "Dune", Year = 1965, Author = herbert };
             var endersGame = new Book { Title = "Ender's Game", Year = 1985, Author = card };
 
-
-
             dbContext.Books.AddRange(hobbit, lordOfTheRings, silmarillion, hitchhikersGuide, dune, endersGame);
             dbContext.SaveChanges();
 
